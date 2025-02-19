@@ -24,3 +24,4 @@ const arr2 = [7, 8, 9, 10, 11, 12];
 const arr3 = [3, 14, 15, 16, 17, 18];
 
 console.log(arr1.myConcat(arr2, "hemant", arr3, 543));
+console.log(arr1.concat(arr2, "hemant", arr3, 543));
