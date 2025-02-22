@@ -1,0 +1,54 @@
+body{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+   font-family: serif;
+}
+
+#button-container{
+    display: flex;
+    gap: 30px;
+}
+
+button{
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+}
+
+#red{
+    background-color: red;
+    cursor: pointer;
+}
+#green{
+    background-color: green;
+    cursor: pointer;
+}
+#blue{
+    background-color: blue;
+    cursor: pointer;
+}
+#purple{
+    background-color: purple;
+    cursor: pointer;
+}
+#reset{
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+
