@@ -1,0 +1,2 @@
+Hii this is the internal text of promise helper file.
+This is being used to understand callback hell.
