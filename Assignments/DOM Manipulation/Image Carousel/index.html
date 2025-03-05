@@ -11,32 +11,27 @@
         <h1>Image Carousel</h1>
         <div id="image-container">
             <div id="nav-btn">
-                <button>&#8592</button>
-                <button>&#8594</button>
+                <button id="left-btn">&#8592</button>
+                <button id="right-btn">&#8594</button>
             </div>
-            <div id="image">
-                <img src="./1.jpg" alt="Image-1">
-                <img src="./2.jpg" alt="Image-2">
-                <img src="./3.jpg" alt="Image-3">
-                <img src="./4.jpg" alt="Image-4">
-                <div id="caption">
+            <div id="image-reel">
+                <!-- <img id="img-1" class="img" src="./1.jpg" alt="Image-1">
+                <img id="img-2" class="img" src="./2.jpg" alt="Image-2">
+                <img id="img-3" class="img" src="./3.jpg" alt="Image-3">
+                <img id="img-4" class="img" src="./4.jpg" alt="Image-4"> -->
             </div>
-                <h3>cap-1</h3>
-                <h3>cap-2</h3>
-                <h3>cap-3</h3>
-                <h3>cap-4</h3>
+            <div id="caption">
+                <h3 id="cap-text">cap-1</h3>
             </div>
         </div>
         <div id="dots-container">
-            <div>o</div>
-            <div>o</div>
-            <div>o</div>
-            <div>o</div>
+            <!-- <div class="dot"></div> -->
         </div>
-        <div>
-        <button>Start Auto Play</button>
-        <span>Next Slide in <span>1</span>s</span>
+        <div id="timer-div">
+        <button id="auto-play-btn">Start Auto Play</button>
+        <span id="timer">Next Slide in <span id="time"></span>s</span>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
