@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="upper-div">
+        <h1 id="main-heading">Simple Shop</h1>
+        <div id="items-div">
+            <div class="card">
+                <img class="item-img" src="https://cdn.pixabay.com/photo/2024/01/20/01/54/ai-generated-8520248_1280.jpg" alt="T-Shirt">
+                <h3 class="item-name">T-Shirt</h3>
+                <span>$<span class="item-amt">19.99</span></span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img class="item-img" src="https://cdn.pixabay.com/photo/2015/03/15/18/37/jeans-674832_1280.jpg" alt="Jeans">
+                <h3 class="item-name">Jeans</h3>
+                <span>$<span class="item-amt">49.99</span></span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img class="item-img" src="https://cdn.pixabay.com/photo/2020/04/09/08/38/nike-5020361_1280.jpg" alt="Sneakers">
+                <h3 class="item-name">Sneakers</h3>
+                <span>$<span class="item-amt">79.99</span></span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="card">
+                <img class="item-img" src="https://cdn.pixabay.com/photo/2015/08/05/04/02/people-875597_1280.jpg" alt="Hat">
+                <h3 class="item-name">Hat</h3>
+                <span>$<span class="item-amt">24.99</span></span>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div id="lower-div">
+        <h3 id="cart-head">Shopping Cart</h3>
+        <ul id="cart-list">
+            <!-- <li class="list-item">
+                    <span>Hat</span>
+                    <div class="quantity">
+                        <button>-</button>
+                        <span>2</span>
+                        <button>+</button>
+                        <span>$<span>24.99</span></span>
+                        <button>Remove</button>
+                    </div>
+            </li> -->
+        </ul>
+        <h2>Total: $<span id="total">0</span></h2>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
